@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.main-div{
+  background-color: rgb(6, 42, 48);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.center-div{
+  margin-top: 100px;
+  text-align: center;
+}
+.img-div img{
+  width: 100px;
+}
+.input-div{
+  background-color: white;
+  padding: 10px;
+}
+.input-div input{
+  outline: none;
+  border: none;
+  min-width: 300px;
+  color: grey;
+}
+.input-div i{
+  cursor: pointer;
+  color: grey;
+}
+.show-item{
+  margin-top: 30px;
+  
+}
+.add-item{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(47, 120, 151);
+  padding: 10px;
+  height: 20px;
+  color: azure;
+}
+.add-item:hover{
+  background-color: white;
+  color:rgb(47, 120, 151) ;
+}
+.icons i{
+  cursor: pointer;
+}
+button{
+  padding: 8px;
+  margin-top: 18px;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  color: azure;
+  background-color: rgb(31, 124, 135);
+}
+button:hover{
+  background-color: rgb(16, 69, 78);
+}
